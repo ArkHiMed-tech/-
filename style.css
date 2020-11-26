@@ -24,7 +24,7 @@ body {
 }
 
 img {
-    filter: saturate(1.5)
+    filter: saturate(1.4)
 }
 
 .filter-str img {
