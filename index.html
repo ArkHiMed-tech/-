@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link class="theme-list" rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
 </head>
 
-<body>
+<body class="theme-container light-theme">
     <header class="page-header">
         <nav>
             <div class="container">
@@ -16,6 +16,9 @@
                 <a class="header-phone" href="tel:+79114857283">+79114857283</a>
             </div>
         </nav>
+        <div class="container">
+            <img class="button theme-button" src="img/icon-sun.svg" width="20px" height="20px">
+        </div>
     </header>
 
     <section class="hero-image">
@@ -72,7 +75,7 @@
         </div>
         <div class="container">
             <figure class="project-image">
-                <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+                <img class="img-keks-site" src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
             </figure>
             <a class="button" href="source/project/index.html">Открыть страницу</a>
         </div>
@@ -93,4 +96,7 @@
             <a href="https://github.com/ArkHiMed-tech">Мой гитхаб</a>
         </div>
     </footer>
-</body></html>
+    <script src="theme-tumbler.js"></script>
+</body>
+
+</html>

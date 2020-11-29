@@ -1,4 +1,4 @@
-body {
+.light-theme {
     margin: 0;
     min-width: 960px;
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -8,6 +8,19 @@ body {
     background-color: #f2f4f6;
     background-image: linear-gradient(transparent 40%, white 90%, white 100%),
         url("img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.dark-theme {
+    margin: 0;
+    min-width: 960px;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #f2f2f2;
+    background-color: #080208;
+    background-image: url("img/hero-bg-dark.jpg");
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -24,7 +37,7 @@ body {
 }
 
 img {
-    filter: saturate(1.4)
+    filter: saturate(1.4);
 }
 
 .filter-str img {
@@ -81,6 +94,10 @@ img {
 
 .intro {
     margin: 0 0 120px;
+}
+
+.img-keks-site {
+    border-radius: 40px;
 }
 
 .subheading {
@@ -178,6 +195,7 @@ img {
     border-radius: 4px;
     background-color: #288be6;
     color: #ffffff;
+    filter: drop-shadow(5px 3px 1px #444) blur(0.5px);
 }
 
 .page-footer {
